@@ -4,36 +4,77 @@
   display: flex;
 }
 
-.col{
+.col {
   flex: 1;
 }
 
 /*Percentages(ish)*/
-._25{
+._25 {
   flex: 2.5;
+}
+
+._30 {
+  flex: 3;
+}
+
+._40 {
+  flex: 4;
 }
 
 ._50 {
   flex: 5;
 }
 
+._60 {
+  flex: 6;
+}
+
+._70 {
+  flex: 7;
+}
+
 ._75 {
   flex: 7.5;
 }
 
-/*Styling Classes*/
-.tile {
-  background-color: white;
-  height: 400px;
-  margin:10px;
+._100 {
+  flex: 10;
 }
 
-.sidebar{
+/*Styling Classes*/
+.tile-header {
+  background-color: black;
+  height: 150px;
+  margin: 3px;
+  padding: 0px;
+}
+
+.tile {
+  background-color: red;
+  height: 200px;
+  margin:3px;
+  padding: 10px;
+  opacity: 0.75;
+}
+
+.sidebar-1{
   background-color: gray;
+  height: 100vh;
+}
+
+.sidebar-2{
+  background-color: white;
   height: 100vh;
 }
 
 .main-content {
    background-color: black;
+}
+
+.tile-footer {
+  background-color: black;
+  height: 150px;
+  margin: 3px;
+  padding: 0px;
 }
 
